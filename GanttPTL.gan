@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Projet_Tuteuré_LEGRAND" company="" webLink="http://" view-date="2018-10-08" view-index="0" gantt-divider-location="300" resource-divider-location="300" version="2.8.5" locale="fr">
+    <description><![CDATA[Planning du projet tuteuré.
+Destiné pour l'application des train logistiques de l'entreprise LEGRAND]]></description>
+    <view zooming-state="default:5" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="167" order="0"/>
+        <field id="tpd4" name="Date de début" width="65" order="1"/>
+        <field id="tpd5" name="Date de fin" width="64" order="2"/>
+        <option id="taskLabelUp" value="name"/>
+        <option id="taskLabelDown" value="length"/>
+        <option id="taskLabelLeft" value="advancement"/>
+        <option id="taskLabelRight" value="coordinator"/>
+        <option id="color.recent"><![CDATA[#ff00ff #3333ff #cccc00 #ffff99 #f4f4f4 #99ffcc #99ff99]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars base-id="Aucun">
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="9" name="Réunion n°1 : Presentation et rencontre avec Client" color="#3333ff" meeting="true" start="2018-10-11" duration="0" complete="100" expand="true">
+            <depend id="15" type="2" difference="0" hardness="Strong"/>
+            <depend id="17" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="15" name="Programmation planning de Gantt" color="#99ffcc" meeting="false" start="2018-10-11" duration="10" complete="100" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="19" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="17" name="Première maquettes" color="#99ffcc" meeting="false" start="2018-10-11" duration="10" complete="100" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="19" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="19" name="Réunion n°2 : présentation maquette et Gantt" color="#3333ff" meeting="true" start="2018-10-25" duration="0" complete="0" expand="true"/>
+        <task id="112" name="Préparation" meeting="false" start="2018-10-25" duration="1" complete="0" expand="false">
+            <task id="113" name="User stories" color="#ffff99" meeting="false" start="2018-10-25" duration="1" complete="0" expand="true"/>
+            <task id="114" name="Impact mapping" color="#ffff99" meeting="false" start="2018-10-25" duration="1" complete="0" expand="true"/>
+            <task id="115" name="Storie mapping" color="#ffff99" meeting="false" start="2018-10-25" duration="1" complete="0" expand="true"/>
+            <task id="134" name="Mise en place de la BD" color="#ff00ff" meeting="false" start="2018-10-25" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="116" name="Réunion n°3" color="#3333ff" meeting="true" start="2018-11-08" duration="0" complete="0" expand="true"/>
+        <task id="117" name="Réunion n°4" color="#3333ff" meeting="true" start="2018-11-22" duration="0" complete="0" expand="true"/>
+        <task id="131" name="Réunion n°5" color="#3333ff" meeting="true" start="2018-12-06" duration="0" complete="0" expand="true"/>
+        <task id="133" name="Réunion n°6" color="#3333ff" meeting="true" start="2018-12-20" duration="0" complete="0" expand="true"/>
+        <task id="23" name="Developpement : Zone" color="#ff0000" meeting="false" start="2018-10-26" duration="20" complete="0" expand="false">
+            <task id="43" name="Maquette_Zone" color="#cccc00" meeting="false" start="2018-10-26" duration="2" complete="0" thirdDate="2018-10-08" thirdDate-constraint="0" expand="true">
+                <depend id="46" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="46" name="Interface_graphique_Zone" color="#cccc00" meeting="false" start="2018-10-30" duration="5" complete="0" expand="true">
+                <depend id="47" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="47" name="Code_Zone" color="#cccc00" meeting="false" start="2018-11-06" duration="10" complete="0" expand="true">
+                <depend id="48" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="48" name="Test_Validation_Zone" color="#cccc00" meeting="false" start="2018-11-20" duration="3" complete="0" expand="true"/>
+        </task>
+        <task id="24" name="Développement : Consultation" color="#ff0000" meeting="false" start="2018-10-26" duration="20" complete="0" expand="false">
+            <task id="108" name="Maquette_Consultation" color="#cccc00" meeting="false" start="2018-10-26" duration="2" complete="0" thirdDate="2018-10-08" thirdDate-constraint="0" expand="true">
+                <depend id="109" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="109" name="Interface_graphique_Consultation" color="#cccc00" meeting="false" start="2018-10-30" duration="5" complete="0" expand="true">
+                <depend id="110" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="110" name="Code_Consultation" color="#cccc00" meeting="false" start="2018-11-06" duration="10" complete="0" expand="true">
+                <depend id="111" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="111" name="Test_Validation_Consultation" color="#cccc00" meeting="false" start="2018-11-20" duration="3" complete="0" expand="true"/>
+        </task>
+        <task id="25" name="Développement : graphique" color="#ff0000" meeting="false" start="2018-10-26" duration="20" complete="0" expand="false">
+            <task id="86" name="Maquette_Graphique" color="#cccc00" meeting="false" start="2018-10-26" duration="2" complete="0" thirdDate="2018-10-08" thirdDate-constraint="0" expand="true">
+                <depend id="87" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="87" name="Interface_graphique_Graphique" color="#cccc00" meeting="false" start="2018-10-30" duration="5" complete="0" expand="true">
+                <depend id="88" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="88" name="Code_Graphique" color="#cccc00" meeting="false" start="2018-11-06" duration="10" complete="0" expand="true">
+                <depend id="89" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="89" name="Test_Validation_Graphique" color="#cccc00" meeting="false" start="2018-11-20" duration="3" complete="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="PICHON Maxime" function="Default:1" contacts="" phone=""/>
+        <resource id="1" name="CHABAUDIE Maxime" function="SoftwareDevelopment:2" contacts="" phone=""/>
+        <resource id="2" name="YAHIA Quentin" function="SoftwareDevelopment:2" contacts="" phone=""/>
+        <resource id="3" name="DESCHAMPS Baptiste" function="SoftwareDevelopment:2" contacts="" phone=""/>
+        <resource id="4" name="PICHON Théo" function="SoftwareDevelopment:2" contacts="" phone=""/>
+        <resource id="5" name="KURTH Alexender" function="Default:0" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="15" resource-id="0" function="Default:1" responsible="true" load="90.0"/>
+        <allocation task-id="17" resource-id="0" function="Default:1" responsible="false" load="10.0"/>
+        <allocation task-id="24" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="9" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="15" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="24" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="17" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="23" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="9" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="17" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="23" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="4" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="17" resource-id="4" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="25" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="9" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="17" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="25" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>

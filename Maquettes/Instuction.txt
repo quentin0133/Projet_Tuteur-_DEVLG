@@ -1,0 +1,66 @@
+Références pour les maquettes (je vous met l'arborescence dans le menu de balsamiq) :
+- Les maquettes doivent être fait sur Balsamiq (lien pour le réaliser en ligne : https://balsamiq.cloud )
+
+- Pour le cadre : Big/Rectangle
+  Heigh : 2200px
+  Width : 1250px 
+
+
+- Pour les titres : Text/Title
+  font-size : 72px
+  margin-top : 40px
+  autre : centré
+
+- Pour les labels : Text/Bloc of text
+  font-size : 60px
+  autre  : souligné et mettez une étoile au début du texte pour indiquer
+  qu'il est obligatoire
+
+- le label obligatoire : Text/Text Input
+  position en x : 30px
+  margin bas : 111px
+  autre : souligné
+  contenu : "(* : champs obligatoires)"
+
+- Pour les formulaires : Text/Text Input
+  width : 400px
+
+- Pour les radios buttons : Containers/Shape
+  width, height : 48px
+  Pour coché le radio button : allez dans les propriétes Shape et chercher Icon,
+  vous tapez Circle et prenez le rond noir
+
+- Pour les boutons : Buttons/Multiline button
+  font-size : 60px
+  width : 250px
+  margin droite : 298px
+  margin bas : 111px
+
+  si vous voulez rajouter un annuler :
+  margin droite : 598px
+  margin bas : 111px
+
+- Pour les textes non modifiables : Text/Bloc of text
+  background-color : gray4
+  color : gray2
+
+- Pour les formulaire (ou radios button) et label qui sont sur la même ligne,
+  Vous alignez les formulaire horizontalement entre eux (si il y a un problème d'espace
+  essayez d'improviser, on verra ça ensemble)
+  Pareil pour les label
+  Vous mettez un écart de
+  ensuite vous sélectionnez les 2 éléments et les centrés
+
+- Pour l'alignement vertical, essayer juste de comblet l'espace entre le titre et bouton valider / retour
+
+- Pour les limites, vous allez faire le cas d'erreur général :
+  
+  La border color des formulaires : red4
+  Un texte indiquant : "Champ vide" ou "Champ incomplet" et color : red4
+  
+  Dans chaque cas, un formulaire doit être est completé (lorsqu'il sera en test, on clique sur
+  un formulaire, ça le complète individuellement) et prenez des exemples concrets
+
+- Pour l'envoyer faite un screenshot, et mettez le dans le projet tuteuré sur messenger
+
+- Si vous avez des améliorations ou des problèmes dites le moi, je serai là.
